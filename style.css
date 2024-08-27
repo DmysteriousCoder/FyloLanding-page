@@ -90,3 +90,51 @@ button {
     font-weight: 500;
     font-size: 16px;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.features  {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    justify-content: center;
+    align-items: center;
+}
+
+.features .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.features .col .feat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.features .col .feat p {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.features .col .feat .head {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
