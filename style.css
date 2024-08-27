@@ -193,3 +193,16 @@ main {
     align-items: center;
     gap: .5em;
 }
+
+.testimonial {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial .card {
+    background-color: hsl(219, 30%, 18%);
+    height: 300px;
+    width: 500px;
+}
