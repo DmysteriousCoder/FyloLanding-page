@@ -197,12 +197,56 @@ main {
 .testimonial {
     width: 80%;
     display: flex;
+    gap: 2em;
     justify-content: center;
     align-items: center;
+    margin-top: 150px;
 }
 
 .testimonial .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5em;
+    align-items: center;
     background-color: hsl(219, 30%, 18%);
-    height: 300px;
-    width: 500px;
+    height: 250px;
+    width: 700px;
+    padding: 10px;
+}
+
+.testimonial .card p {
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+}
+
+.testimonial .card .auth {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1em;
+}
+
+.testimonial .card .title {
+    display: flex;
+}
+
+.testimonial .card .title p {
+    font-size: 14px;
+}
+
+.testimonial .card .title h6 {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+.testimonial .card img {
+    border-radius: 50%;
+    height: 50px;
 }
