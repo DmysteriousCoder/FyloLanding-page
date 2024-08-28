@@ -41,9 +41,14 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: grey;
     font-weight: 500;
     font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: white;
+    text-decoration: underline;
 }
 
 .hero {
@@ -89,6 +94,10 @@ button {
     border-radius: 25px;
     font-weight: 500;
     font-size: 16px;
+}
+
+button:hover {
+    opacity: 0.5;
 }
 
 main {
@@ -192,6 +201,15 @@ main {
     justify-content: center;
     align-items: center;
     gap: .5em;
+}
+
+.productive button:hover {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.productive button:hover img {
+    color: white;
 }
 
 .testimonial {
@@ -322,9 +340,23 @@ main {
     padding: 18px 35px;
 }
 
+button {
+    background-color: hsl(176, 68%, 64%);
+    color: white;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.productive button:hover {
+    opacity: 0.5;
+}
+
 footer {
     width: 80%;
-    margin-top: 200px;
+    margin-top: 250px;
     display: flex;
     flex-direction: column;
     gap: 3em;
@@ -336,6 +368,7 @@ footer .body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    width: 100%;
 }
 
 .loc {
@@ -354,4 +387,67 @@ footer .body {
 footer .contact {
     display: flex;
     flex-direction: column;
+    gap: 2em;
+}
+
+.phone {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    font-size: 14px;
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    justify-content: flex-start;
+    color: white;
+    gap: 1em;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer a {
+    color: rgb(223, 201, 201);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer a:hover {
+    color: white;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.social-links p {
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-weight: 400;
+    padding: 10px;
+    font-size: 10px;
+}
+
+.social-links p:hover {
+    color: hsl(176, 68%, 64%);
+    border: 1px solid hsl(176, 68%, 64%);
 }
