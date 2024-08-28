@@ -452,13 +452,27 @@ footer a:hover {
     border: 1px solid hsl(176, 68%, 64%);
 }
 
+.desktop-hide {
+    display: none;
+}
+
 
 @media (max-width: 420px) {
     nav {
         position: relative;
+        display: flex;
+        width: 80%;
     }
 
-    nav ul {
+    nav .logo img {
+        height: 40px;
+    }
+
+    .desktop-hide {
+        display: block;
+    }
+
+    nav .nav-links {
         display: none;
     }
 
@@ -468,12 +482,16 @@ footer a:hover {
         position: absolute;
         top: 100px;
         width: 100%;
-        display: flex;
+        display: none;
         justify-content: center;
         align-items: center;
         height: 100vh;
         background-color: hsl(218, 28%, 13%);
-        color: white;
+    }
+
+    nav ul.active a {
+        font-size: 25px;
+        font-weight: 500;
     }
 
     .hero {
