@@ -257,3 +257,65 @@ main {
     border-radius: 50%;
     height: 50px;
 }
+
+.footer-cont {
+    width: 100%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    background-color: hsl(216, 53%, 9%);
+    position: relative;
+}
+
+.cta {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: hsl(217, 28%, 15%);
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -120px;
+    gap: 2em;.;
+}
+
+.cta h3 {
+    font-size: 35px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+}
+
+.cta p {
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+}
+
+.cta .subscribe {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta .subscribe form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.cta .subscribe form input {
+    width: 60%;
+    border: none;
+    border-radius: 30px;
+    padding: 20px;
+}
