@@ -550,4 +550,59 @@ footer a:hover {
         font-size: 18px;
         padding-bottom: 5px;
     }
+
+    .testimonial {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+    }
+
+    .testimonial .card {
+        width: 90%;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        gap: 1.5em;
+    }
+
+    .testimonial .card p {
+        display: flex;
+        font-size: 14px;
+        justify-self: center;
+        align-self: center;
+        padding: 10px;
+    }
+
+    .testimonial .card .auth {
+        width: 90%;
+    }
+
+    .testimonial .card .title {
+        display: flex;
+    }
+
+    .testimonial .card .title p  {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .testimonial .card .title h6 {
+        padding: 16px;
+        font-weight: 500;
+    }
+
+    .testimonial .card img {
+        height: 30px;
+    }
+
+    .cta {
+        width: 90%;
+        padding: 20px 10px;
+    }
 }
