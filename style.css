@@ -234,10 +234,17 @@ main {
 
 .testimonial .card .title {
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: .2em;
 }
 
 .testimonial .card .title p {
     font-size: 14px;
+    padding: 0;
+    color: gray;
+    font-weight: 400;
 }
 
 .testimonial .card .title h6 {
